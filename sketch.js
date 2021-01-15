@@ -11,7 +11,7 @@ function preload() {
 
 function setup() {
   // create a canvas to render our image
-  createCanvas(400, 400);
+  createCanvas(650, 450);
 
   // call .classify() on our classifier to classify our image
   classifier.classify(img, gotResult);
